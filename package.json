@@ -1,0 +1,32 @@
+{
+  "name": "@plan3-relate/hapi-cls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/plan3/hapi-cls.git"
+  },
+  "keywords": [
+    "hapi",
+    "cls"
+  ],
+  "author": "Paweł Dziok <pdziok@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plan3/hapi-cls/issues"
+  },
+  "homepage": "https://github.com/plan3/hapi-cls#readme",
+  "devDependencies": {
+    "chai": "4.1.0",
+    "chai-as-promised": "^7.1.1",
+    "hapi": "16.5.0",
+    "mocha": "3.4.2"
+  },
+  "dependencies": {
+    "continuation-local-storage": "3.2.0"
+  }
+}
