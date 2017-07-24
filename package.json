@@ -1,6 +1,6 @@
 {
-  "name": "@smp-relate/hapi-cls",
-  "version": "1.0.1",
+  "name": "@plan3-relate/hapi-cls",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   "homepage": "https://github.com/plan3/hapi-cls#readme",
   "devDependencies": {
     "chai": "4.1.0",
-    "chai-as-promised": "^7.1.1",
+    "chai-as-promised": "7.1.1",
     "hapi": "16.5.0",
     "mocha": "3.4.2"
   },
