@@ -1,4 +1,4 @@
-# Continuation local Storage for Hapi
+# Continuation Local Storage for Hapi [![Build Status](https://travis-ci.org/plan3/hapi-cls.svg?branch=master)](https://travis-ci.org/plan3/hapi-cls)
 
 Heavily "inspired" on https://github.com/entrinsik-org/hapi-cls
 
