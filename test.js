@@ -34,7 +34,7 @@ describe('hapi-cls', function () {
         });
 
         it('should register a namespace with hapi', function () {
-            server.plugins.should.have.property('@plan3-relate/hapi-cls');
+            server.plugins.should.have.property('@smp-relate/hapi-cls');
         });
 
         it('should execute custom setters to the namespace', function (done) {
