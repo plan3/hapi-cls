@@ -8,7 +8,7 @@ This Hapi plugin installs CLS and binds it to the request
 
 ## Installation
 
-`npm install @smp-relate/hapi-cls`
+`npm install @plan3-relate/hapi-cls`
 
 ## Usage
 
@@ -16,7 +16,7 @@ This Hapi plugin installs CLS and binds it to the request
 const server = new hapi.Server();
 server.connection({port: config.port});
 
-server.register(require('@smp-relate/hapi-cls'), {namespace: 'my-namespace'})
+server.register(require('@plan3-relate/hapi-cls'), {namespace: 'my-namespace'})
 ```
 
 **NOTE:** Registration should be done in the "highest" point possible to ensure other plugins are also working
